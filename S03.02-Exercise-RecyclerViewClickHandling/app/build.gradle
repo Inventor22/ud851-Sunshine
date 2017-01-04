@@ -4,6 +4,10 @@ android {
     compileSdkVersion 25
     buildToolsVersion '25.0.1'
 
+    aaptOptions {
+        cruncherEnabled = false
+    }
+
     defaultConfig {
         applicationId "com.example.android.sunshine"
         minSdkVersion 10
